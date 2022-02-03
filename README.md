@@ -1,4 +1,4 @@
-# LAB 3: Static members, this pointer and Operator Overloading
+# Static members, this pointer and Operator Overloading
 
 1.	WAP to illustrate the use of static data member in a class.
 2.	WAP to illustrate static member function.
