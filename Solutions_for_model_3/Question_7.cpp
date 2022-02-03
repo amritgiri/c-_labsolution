@@ -18,10 +18,22 @@ check::check(int increment){
     this->i = increment;
 }
 
-check operator++(int a){
-    return (++a);
+check operator++(check&a){
+    return (a.i++);
 }
 
 void check::display(){
     cout<<"Value of i: "<<i<<endl;
+}
+
+int main(){
+    check c;
+    c= check(23);
+    
+    c.display();
+
+    ++c;
+    c.display();
+
+    return 0;
 }
