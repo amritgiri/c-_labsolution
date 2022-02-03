@@ -25,15 +25,3 @@ check operator++(int a){
 void check::display(){
     cout<<"Value of i: "<<i<<endl;
 }
-
-int main(){
-    check c;
-    c= check(23);
-    
-    c.display();
-
-    ++c;
-    c.display();
-
-    return 0;
-}
