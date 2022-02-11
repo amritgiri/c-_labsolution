@@ -1,7 +1,6 @@
 //4.	Define a class named Distance with meter and centimeter as private members. Use appropriate member functions to read and display data members. Use class Distance to read two objects of distance class and add them by passing this objects to the function and display the result.
 
 #include<iostream>
-// #include<conio.h>
 
 using namespace std;
 

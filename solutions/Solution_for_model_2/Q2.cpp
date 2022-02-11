@@ -1,7 +1,6 @@
 //2.	WAP to illustrate the working of constructor and destructor. Use appropriate "cout" statements and blocks to show the sequence of object construction and destruction.
 
 #include<iostream>
-// #include<conio.h>
 
 using namespace std;
 

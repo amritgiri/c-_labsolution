@@ -1,6 +1,5 @@
 //5.	WAP to add and swap private data of two different classes. Use separate function for add and swap.
 #include<iostream>
-// #include<conio.h>
 
 using namespace std;
 

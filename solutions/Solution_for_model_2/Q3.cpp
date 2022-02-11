@@ -1,6 +1,5 @@
 //3.	Write a program in C++ which has class Employee with data members: name, address, age and salary and member functions read and display data members. Use this class to read records of 10 employees and display them.
 #include<iostream>
-// #include<conio.h>
 #include<string>
 #include<iomanip>
 
