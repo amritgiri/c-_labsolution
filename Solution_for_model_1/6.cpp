@@ -19,7 +19,7 @@ class Circle {
   }
 };
 
-int main(int argc, char const* argv[]) {
+int main() {
   Circle c1;
 
   c1.SetRadius(10.0);

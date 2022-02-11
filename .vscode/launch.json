@@ -9,12 +9,12 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "c:/Users/amrit/Desktop/C++ LAB/lab3",
+      "cwd": "c:/Users/amrit/Documents/GitHub/cpp_practice_questions/solution_for_model_4",
       "environment": [],
-      "program": "c:/Users/amrit/Desktop/C++ LAB/lab3/build/Debug/outDebug",
+      "program": "c:/Users/amrit/Documents/GitHub/cpp_practice_questions/solution_for_model_4/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "miDebuggerPath": "gdb",
       "externalConsole": false,
       "setupCommands": [
         {
