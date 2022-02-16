@@ -29,7 +29,7 @@ void Distance :: getdata(){
     cin>>feet;
     cout<<"Inches: ";
     cin>>inches;
-    operator float();
+    // operator float();
 }
 
 int main(){
