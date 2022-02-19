@@ -16,7 +16,7 @@ class Member{
             po = 100+pu;
         }
         void display_nameClass(){
-            cout<<"value of pr in Member class is: "<<pr<<endl<<endl;
+            cout<<"value of pr in base class is: "<<pr<<endl<<endl;
         }
 };
 
@@ -25,8 +25,8 @@ class Derived:private Member{
         void display(){
             cout<<"Values in Derived class as private Member class: \n";
             cout<<"pr is not accessable"<<endl;
-            cout<<"value of pu: "<<pu<<endl;
-            cout<<"value of po: "<<po<<endl<<endl;
+            cout<<"pu: "<<pu<<endl;
+            cout<<"po: "<<po<<endl<<endl;
         }
 };
 class Derived1:protected Member{
@@ -34,8 +34,8 @@ class Derived1:protected Member{
         void display(){
             cout<<"Values in Derived class as protected Member class: \n";
             cout<<"pr is not accessable"<<endl;
-            cout<<"value of pu: "<<pu<<endl;
-            cout<<"value of po: "<<po<<endl<<endl;
+            cout<<"pu: "<<pu<<endl;
+            cout<<"po: "<<po<<endl<<endl;
         }
 };
 
@@ -44,8 +44,8 @@ class Derived2:public Member{
         void display(){
             cout<<"Values in Derived class as public Member class: \n";
             cout<<"pr is not accessable"<<endl;
-            cout<<"value of pu: "<<pu<<endl;
-            cout<<"value of po: "<<po<<endl;
+            cout<<"pu: "<<pu<<endl;
+            cout<<"po: "<<po<<endl;
         }
 };
 
