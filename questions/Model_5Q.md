@@ -1,6 +1,7 @@
 1.	WAP to illustrate the concept of function overriding.
 2.	WAP to implement the following form of inheritance:
-        ![image](/classdiagram.jpg)
+       
+       ![image](/classdiagram.jpg)
 3.	WAP in C++ to illustrate the execution order of constructors and destructors when both the base and derived class has constructor and destructor in single and multiple inheritances.
 
 4.	WAP to illustrate casting base class pointer to derived class pointer.
