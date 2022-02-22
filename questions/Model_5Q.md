@@ -1,3 +1,5 @@
+## Inheritance and Polymorphism
+
 1.	WAP to illustrate the concept of function overriding.
 2.	WAP to implement the following form of inheritance:
        
