@@ -24,7 +24,7 @@ void test(int x){
 }
 
 int main(){
-    cout<<"Testing multiple catches\n";
+    cout<<"Testing single catches\n";
     cout<<"x = 1"<<endl;
     test(1);
     cout<<"x = 0"<<endl;
