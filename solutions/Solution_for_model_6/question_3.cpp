@@ -15,7 +15,7 @@ T test(T a, T b){
 
 template<class T>
 T test(T a, T b, T c){
-    if(a<b&&b<c){
+    if(a<b&&a<c){
         return a;
     }
     else if(b<c&&b<a){

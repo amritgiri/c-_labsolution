@@ -1,7 +1,5 @@
 //Create a class Cricketer with member variables to represent name,age and number of matches played. From this class bowler and batsman. Bowler class has number of wickets as member variable and batsman class has runs and centuries as member variables. Use appropriate member function in all classes to read and display respective data.
 #include<iostream>
-#include<string>
-#include<stdlib.h>
 
 using namespace std;
 
@@ -29,14 +27,15 @@ class Bowler:public Cricketer{
 };
 
 void Bowler::get(){
-    Cricketer::get_data();
+    // Cricketer::get_data();
     cout<<"Enter number of wickets taken: ";
     cin>>no_ofWickets;
 }
 
 void Bowler::put(){
-    cout<<"Details of bowler:"<<endl;
-    cout<<"Name: "<<name<<endl<<"Age: "<<age<<endl<<"No of matches: "<<num_matches_played<<endl<<"Wickets taken: "<<no_ofWickets<<endl;
+    // cout<<"Details of bowler:"<<endl;
+    // cout<<"Name: "<<name<<endl<<"Age: "<<age<<endl<<"No of matches: "<<num_matches_played<<endl;
+    cout<<"Wickets taken: "<<no_ofWickets<<endl;
 }
 
 class Batsman:public Cricketer{
@@ -56,7 +55,7 @@ void Batsman::getdata(){
 }
 
 void Batsman::putdata(){
-    cout<<"\n\nDetails of Batsman:"<<endl;
+    cout<<"\n\nDetails of Cricketer:"<<endl;
     cout<<"Name: "<<name<<endl<<"Age: "<<age<<endl<<"No of matches: "<<num_matches_played<<endl<<"Runs made: "<<runs<<endl<<"Centuries made: "<<centuries<<endl;
 }
 
@@ -64,11 +63,11 @@ void start(){
     system("cls");
     Batsman bt;
     Bowler bo;
-    cout<<"Give details of batsman:"<<endl;
+    cout<<"Give details of batsman/bowler:"<<endl;
     bt.getdata();
-    bt.putdata();
-    cout<<"\n\nGive details of bowler:"<<endl;
+    // cout<<"\n\nGive details of bowler:"<<endl;
     bo.get();
+    bt.putdata();
     bo.put();
 }
 
