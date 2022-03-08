@@ -16,7 +16,7 @@ int main(){
             throw(b);
         }
     }
-    catch(int i){
+    catch(float i){
         cout<<"ERROR"<<endl;
     }
 
